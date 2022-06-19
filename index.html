@@ -13,8 +13,8 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href=""><span class="blue-web">Web</span>Stidio</a>
+      <nav class="site-nav">
+        <a href="" class="logo"><span class="blue-web">Web</span>Stidio</a>
         <ul class="list">
           <li>
             <a href="">Студия</a>
@@ -27,7 +27,7 @@
           </li>
         </ul>
       </nav>
-      <ul class="concats-info list">
+      <ul class="contacts-info list">
         <li><a href="mailto:info@example.com">info@devstudio.com</a></li>
         <li><a href="tel:+38 099 111 11 11">+38 096 111 11 11</a></li>
       </ul>
@@ -41,29 +41,29 @@
         <h2 class="hide-h2">Что мы предлогаем</h2>
         <ul class="list">
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="preview-header">Внимание к деталям</h3>
+            <p class="preview-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="preview-header">Пунктуальность</h3>
+            <p class="preview-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="preview-header">Планирование</h3>
+            <p class="preview-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="preview-header">Современные технологии</h3>
+            <p class="preview-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -71,7 +71,7 @@
         </ul>
       </section>
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="our-business">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <img src="./img/ourjob1.jpg" alt="построение макета " width="370" />
@@ -97,34 +97,47 @@
         <ul class="list">
           <li>
             <img src="./img/ourteam1.jpg" alt="Фото сотрудника" width="270" />
-            <h3>Игорь Демьяненко</h3>
+            <h3 class="name-team">Игорь Демьяненко</h3>
             <p class="employee-description">Product Designer</p>
           </li>
           <li>
             <img src="./img/ourteam2.jpg" alt="Фото сотрудника" width="270" />
-            <h3>Ольга Репина</h3>
+            <h3 class="name-team">Ольга Репина</h3>
             <p class="employee-description">Frontend Developer</p>
           </li>
           <li>
             <img src="./img/ourteam3.jpg" alt="Фото сотрудника" width="270" />
-            <h3>Николай Тарасов</h3>
+            <h3 class="name-team">Николай Тарасов</h3>
             <p class="employee-description">Marketing</p>
           </li>
           <li>
             <img src="./img/ourteam4.jpg" alt="Фото сотрудника" width="270" />
-            <h3>Михаил Ермаков</h3>
+            <h3 class="name-team">Михаил Ермаков</h3>
             <p class="employee-description">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="">
-      <a href="" class="web-logo"><span class="blue-web">Web</span>Stidio</a>
+    <footer class="footer-info">
+      <!-- Изменить цвет лого -->
+      <a href="" class="web-logo logo"
+        ><span class="blue-web">Web</span>Stidio</a
+      >
       <address>
         <ul class="list">
-          <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+38 099 111 11 11">+38 099 111 11 11</a></li>
+          <li>
+            <a href="" class="place-info">г. Киев, пр-т Леси Украинки, 26</a>
+          </li>
+          <li>
+            <a href="mailto:info@example.com" class="contacts-footer"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+38 099 111 11 11" class="contacts-footer"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
