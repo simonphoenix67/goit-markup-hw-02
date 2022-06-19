@@ -1,0 +1,56 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #FFFFFF;
+  --brand-color: #2196F3;
+  --additional-color: #757575;
+}
+
+body {
+color: var(--main-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.hide-h2 {
+  display: none;
+}
+
+
+/* <a class="logo link" href="" lang="en">Web<span class="logo-accent">Studio</span></a>.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+*/
+
+
+
+.order-button, .blue-web {
+  background-color: var(--brand-color);
+}
+
+.big-text {
+background-color: #2F303A;
+}
+
+
+
+.concats-info, {
+  color: var(--additional-color);
+}
+
+.list p {
+  color: var(--additional-color);
+}
+
+.web-logo {
+  color: var(--secondary-color);
+}
+
+/*.employee-description*/
