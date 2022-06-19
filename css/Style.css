@@ -48,7 +48,7 @@ font-family: Roboto, sans-serif;
 .order-button, .blue-web {
   background-color: var(--brand-color);
   color: var(--secondary-color);
-  
+  font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -206,4 +206,21 @@ text-decoration: none;
 
 .nine {
   list-style: none;
+}
+
+.blue-logo{
+  color: var(--brand-color)
+}
+
+.current-site {
+  color: var(--brand-color);
+}
+
+.preview-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
 }
