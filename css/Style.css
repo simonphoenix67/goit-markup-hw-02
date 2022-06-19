@@ -150,3 +150,7 @@ font-weight: 500;
 
   color: var(--additional-color)
 }
+
+.links:hover, .links:focus{
+  color: var(--brand-color);
+}
