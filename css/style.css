@@ -87,6 +87,7 @@ color: var(--secondary-color);
 }
 
 .place-info{
+  font-style: normal;
   color: var(--secondary-color);
 text-decoration: none;
     font-weight: 400;
@@ -97,6 +98,7 @@ text-decoration: none;
 
 
 .contacts-footer{
+  font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -200,6 +202,7 @@ text-decoration: none;
 }
 
 .filter-button{
+  font-family: inherit;
   color: var(--main-color);
   background-color: #F5F4FA;
       font-weight: 500;
@@ -232,4 +235,12 @@ text-decoration: none;
 .place-info:hover, .place-info:focus,
 .contacts-footer:hover, .contacts-footer.focus {
   color: var(--brand-color);
+}
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
 }
